@@ -18,3 +18,8 @@ This repository is the implementation for DKA-YOLO object detection model
 ## Reference
 - [github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) 
 - [github.com/AILab-CVC/UniRepLKNet](https://github.com/AILab-CVC/UniRepLKNet) 
+
+
+## License 
+This project is licensed under the Apache 2.0 License, please click [LICENSE](LICENSE) for more details.
+
