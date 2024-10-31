@@ -16,5 +16,5 @@ This repository is the implementation for DKA-YOLO object detection model
 - **MSK-Detect Head**： Multi-Scale Kernel Detect: Improves feature diversity, generalization ability, and computational efficiency.
 
 ## Reference
-[github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) 
-[github.com/AILab-CVC/UniRepLKNet](https://github.com/AILab-CVC/UniRepLKNet) 
+-[github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) 
+-[github.com/AILab-CVC/UniRepLKNet](https://github.com/AILab-CVC/UniRepLKNet) 
