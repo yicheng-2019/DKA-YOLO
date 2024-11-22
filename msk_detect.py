@@ -14,16 +14,16 @@ class MSK_Detect_Head(nn.Module):
     dynamic = False  # force grid reconstruction
     export = False  # export mode
     shape = None
-    anchors = torch.empty(0)  # init
-    strides = torch.empty(0)  # init
+    anchors = torch.empty(0)  
+    strides = torch.empty(0)  
 
-    def __init__(self, nc=80, ch=()):  # detection layer
+    def __init__(self, nc=80, ch=()):  
         super().__init__()
         self.nc = nc  # number of classes
         self.nl = len(ch)  # number of detection layers
-        self.reg_max = 16  # DFL channels (ch[0] // 16 to scale 4/8/12/16/20 for n/s/m/l/x)
-        self.no = nc + self.reg_max * 4  # number of outputs per anchor
-        self.stride = torch.zeros(self.nl)  # strides computed during build
+        self.reg_max = 16  
+        self.no = nc + self.reg_max * 4  
+        self.stride = torch.zeros(self.nl)  
         self.stem = nn.ModuleList(nn.Sequential(MSK_Block(x), Conv(x, x, 1)) for x in ch)
         self.cv2 = nn.ModuleList(nn.Conv2d(x, 4 * self.reg_max, 1) for x in ch)
         self.cv3 = nn.ModuleList(nn.Conv2d(x, self.nc, 1) for x in ch)
