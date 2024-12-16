@@ -3,7 +3,7 @@
 This repository is the implementation for DKA-YOLO object detection model
 
 
-![Graphical Abstract](./assets/dka_yolo.jpg)
+![Graphical Abstract](./assets/G_abstract.jpg)
 
 ## Overview
 
