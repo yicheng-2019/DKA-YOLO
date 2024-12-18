@@ -23,10 +23,10 @@ This repository is the implementation for DKA-YOLO object detection model
   journal={IEEE Access}, 
   title={DKA-YOLO: Enhanced Small Object Detection via Dilation Kernel Aggregation Convolution Modules}, 
   year={2024},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/ACCESS.2024.3515201}}
+  volume={12},
+  pages={187353-187366},
+  doi={10.1109/ACCESS.2024.3515201}
+}
 ```
 
 ## Reference
